@@ -1,35 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &93903001626148252
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2563966750532200837}
-  m_Layer: 0
-  m_Name: Platform (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2563966750532200837
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 93903001626148252}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30.332153, y: -1.2299701, z: -3.2543402}
-  m_LocalScale: {x: 1, y: 0.90036994, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7615823262325955556}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4041732111717060041
 GameObject:
   m_ObjectHideFlags: 0
@@ -63,7 +33,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.083611, z: 1}
   m_Children: []
   m_Father: {fileID: 7615823262325955556}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 46.738003, z: 0}
 --- !u!114 &4041732111717060038
 MonoBehaviour:
@@ -880,7 +850,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7615823262325955556}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 46.738003, z: 0}
 --- !u!114 &4041732112300032111
 MonoBehaviour:
@@ -1697,7 +1667,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.03189666, z: 1}
   m_Children: []
   m_Father: {fileID: 7615823262325955556}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4041732112549636648
 MonoBehaviour:
@@ -2183,7 +2153,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1.151213, z: 1}
   m_Children: []
   m_Father: {fileID: 7615823262325955556}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4041732112885289804
 MonoBehaviour:
@@ -2874,36 +2844,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 0}
---- !u!1 &4041732113190531919
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4041732113190531912}
-  m_Layer: 0
-  m_Name: Platform (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4041732113190531912
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4041732113190531919}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.832153, y: -1.2299701, z: -7.6643405}
-  m_LocalScale: {x: 1, y: 0.90036994, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7615823262325955556}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7516791075043961925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2937,7 +2877,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1.151213, z: 1}
   m_Children: []
   m_Father: {fileID: 7615823262325955556}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7516791075043961930
 MonoBehaviour:
@@ -3661,7 +3601,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.03189666, z: 1}
   m_Children: []
   m_Father: {fileID: 7615823262325955556}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7516791076168410562
 MonoBehaviour:
@@ -4139,10 +4079,8 @@ Transform:
   m_LocalPosition: {x: -33.332153, y: 0.029970337, z: -0.2756598}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2563966750532200837}
   - {fileID: 7516791075043961931}
   - {fileID: 7516791076168410563}
-  - {fileID: 4041732113190531912}
   - {fileID: 4041732112885289847}
   - {fileID: 4041732112549636691}
   - {fileID: 4041732112300032104}
