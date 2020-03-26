@@ -61,6 +61,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: b966cc93dabc72a419bb40d6be61d4d3, type: 2}
+  - {fileID: 2100000, guid: 1e5c9916a113547408f4481bcb7cd5e2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -125,7 +126,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: 0
     m_TextureGroup: -1
@@ -159,7 +160,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: 0
     m_TextureGroup: -1
@@ -256,9 +257,25 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_IsSelectable: 1
-  m_SelectedFaces: 
-  m_SelectedEdges: []
-  m_SelectedVertices: 
+  m_SelectedFaces: 0300000001000000
+  m_SelectedEdges:
+  - a: 11
+    b: 10
+  - a: 10
+    b: 12
+  - a: 12
+    b: 13
+  - a: 13
+    b: 11
+  - a: 4
+    b: 3
+  - a: 3
+    b: 5
+  - a: 5
+    b: 6
+  - a: 6
+    b: 4
+  m_SelectedVertices: 0c0000000b0000000a0000000d00000005000000040000000300000006000000
 --- !u!64 &5993150526084463631
 MeshCollider:
   m_ObjectHideFlags: 0

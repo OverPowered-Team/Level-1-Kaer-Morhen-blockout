@@ -887,7 +887,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: af684febbd3234c4384e16ebbf95edcd, type: 2}
-  - {fileID: 2100000, guid: f27c1a1145785f2478de4881cb77defd, type: 2}
+  - {fileID: 2100000, guid: 1e5c9916a113547408f4481bcb7cd5e2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1438,11 +1438,9 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_IsSelectable: 1
-  m_SelectedFaces: 11000000
-  m_SelectedEdges:
-  - a: 43
-    b: 41
-  m_SelectedVertices: 2b00000029000000
+  m_SelectedFaces: 
+  m_SelectedEdges: []
+  m_SelectedVertices: 
 --- !u!64 &5185426301078950819
 MeshCollider:
   m_ObjectHideFlags: 0
