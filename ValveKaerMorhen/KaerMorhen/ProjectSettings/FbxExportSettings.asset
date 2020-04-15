@@ -15,10 +15,11 @@
             "."
         ],
         "fbxSavePaths": [
+            "Terrains",
             "ExportTest",
             "."
         ],
-        "selectedFbxPath": 1,
+        "selectedFbxPath": 0,
         "selectedPrefabPath": 0,
         "dccOptionNames": [],
         "dccOptionPaths": [],
